@@ -3,25 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:"Rubik Mono One" , Arial, Helvetica, sans-serif;
 }
-.nav-bar{
-    width:100%;
-    height: 100px;
-    background-color: teal;
-}
-.circle{
-    background-color: white;
-    width:70px;
-    height:70px;
-    border-radius: 50%;
-    position: relative;
-}
-.text-circle{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 /* common */
 img{
     width: 100%;
@@ -31,8 +15,31 @@ img{
     height:100vh;
     position: relative;
 }
+ul{
+    position: fixed;
+    top:40px;
+    right:40px;
+    z-index: 1;
+}
 
-   
+/* ul settings */
+.circle{
+    display: inline-block;
+    margin: 10px 5px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px rgba(161, 161, 161, 0.4);
+}
+.text-circle{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
 /* background section */
 .red{
     background-color: red;
@@ -43,6 +50,7 @@ img{
 .yellow{
     background-color: yellow;
 }
+
 /* center fix */
 .shoes{
     position: absolute;
@@ -50,15 +58,14 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 /* text settings */
 .shoes-text{
-    font-family:"Rubik Mono One" , Arial, Helvetica, sans-serif;
     color: yellow;
     font-size: 30px;
     font-weight: 500;
     text-align: center;
     text-transform: uppercase;
-
 }
 .contrast{
     color:green;
