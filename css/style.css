@@ -6,7 +6,7 @@
 }
 /* common */
 img{
-    width: 100vh;
+    width: 100%;
 }
 .shoes-model{
     width:100%;
@@ -31,7 +31,7 @@ img{
     transform: translate(-50%, -50%);
 }
 /* text settings */
-.shoes h2{
+.shoes-text{
     font-family:"Rubik Mono One" , Arial, Helvetica, sans-serif;
     color: yellow;
     font-size: 30px;
@@ -40,6 +40,6 @@ img{
     text-transform: uppercase;
 
 }
-#contrast{
+.contrast{
     color:green;
 }
